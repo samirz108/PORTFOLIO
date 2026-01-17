@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="sam.png"/>
+    <link rel="icon" type="image/png" href="favicon1.png"/>
     <title>Protfoilo</title>
 </head>
 <body>
-    
-    <a href="#"class="logo">Samir</a>
-    
+    <header>
+    <a href="index.html"class="logo"><h1>Home</a></h1></a>
+    <h1>About</h1>
+    <h1> service </h1>
+    <h1>CV</h1>
+    <h1> Contact</h1>
+    <h2>Samir Shrestha</h2>
+</header>
     <div id="id"></div>
     <div class="class"></div>
     <footer></footer>
-    <header></header>
     <section></section>
     <article></article>
 
      <!--<input type="button" value="">
     <input type="date" name="" id="">-->
+    <script>
+  const icons = [
+    "favicon1.png",
+    "favicon2.png",
+    "favicon3.png"
+  ];
+
+  let index = 0;
+  setInterval(() => {
+    document.getElementById("favicon").href = icons[index];
+    index = (index + 1) % icons.length;
+  }, 500); // change every 500ms
+</script>
+
 
 </body>
 </html>
