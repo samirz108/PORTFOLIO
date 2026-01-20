@@ -1,8 +1,27 @@
-body{ 
+body {
+background-image: url('GG.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed; /* optional */
+}
+   {
     margin: 30px;
 
-}
-.background {
-    background-color: #f0f0f0ff;
+    background-color: rgb(228, 236, 104);
     size: cover;
+}
+.sidebar {
+    background-color: rgba(230, 20, 20, 0);
+}
+.main {
+    background-color: rgba(50, 241, 231, 0)
+}
+.sidebar nav li {
+    width: 20px;
+    
+}.footer {
+    background-color: rgba(13, 2, 37, 0.73);
+}
+
 }
