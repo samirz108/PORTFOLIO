@@ -3,7 +3,7 @@ background-image: url('GG.png');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-attachment: fixed; /* optional */
+background-attachment: fixed; 
 }
    {
     margin: 30px;
@@ -24,4 +24,3 @@ background-attachment: fixed; /* optional */
     background-color: rgba(13, 2, 37, 0.73);
 }
 
-}
